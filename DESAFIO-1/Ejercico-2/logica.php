@@ -16,9 +16,9 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td>$pulgadas</td>
-                            <td>$pie</td>
-                            <td>$yardas</td>
+                            <td>".number_format((float)$pulgadas, 4, '.', '')."</td>
+                            <td>".number_format((float)$pie, 4, '.', '')."</td>
+                            <td>".number_format((float)$yardas, 4, '.', '')."</td>
                         </tr>
                     </tbody>
                 </table>";
@@ -38,9 +38,9 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td>$metros</td>
-                            <td>$pie</td>
-                            <td>$yardas</td>
+                            <td>".number_format((float)$metros, 4, '.', '')."</td>
+                            <td>".number_format((float)$pie, 4, '.', '')."</td>
+                            <td>".number_format((float)$yardas, 4, '.', '')."</td>
                         </tr>
                     </tbody>
                 </table>";
@@ -61,9 +61,9 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td>$metros</td>
-                            <td>$pie</td>
-                            <td>$pulgadas</td>
+                            <td>".number_format((float)$metros, 4, '.', '')."</td>
+                            <td>".number_format((float)$pie, 4, '.', '')."</td>
+                            <td>".number_format((float)$pulgadas, 4, '.', '')."</td>
                         </tr>
                     </tbody>
                 </table>";
@@ -83,9 +83,9 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td>$metros</td>
-                            <td>$pulgadas</td>
-                            <td>$yardas</td>
+                            <td>".number_format((float)$metros, 4, '.', '')."</td>
+                            <td>".number_format((float)$pulgadas, 4, '.', '')."</td>
+                            <td>".number_format((float)$yardas, 4, '.', '')."</td>
                         </tr>
                     </tbody>
                 </table>";

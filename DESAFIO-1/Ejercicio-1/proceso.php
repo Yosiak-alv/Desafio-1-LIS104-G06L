@@ -1,4 +1,4 @@
-<?php include("conversion-view.php");?>
+<?php include("conversion-view.html");?>
 <div class="container">
     <div class="row py-2">
         <div class="col col-md-6 offset-md-3 p-5 bg-light border rounded-3 text-center text-primary">
